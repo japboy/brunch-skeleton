@@ -1,0 +1,50 @@
+{
+  "name": "brunch-skeleton",
+  "version": "0.0.1",
+  "author": "Yu Inao",
+  "description": "My starting point of working with bare Brunch.",
+  "contributors": [
+    {
+      "name": "Yu Inao",
+      "email": "yu.inao@facebook.com"
+    }
+  ],
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "brunch test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/japboy/brunch-backbone-skeleton.git"
+  },
+  "dependencies": {
+    "coffee-script-brunch": ">= 1.3.2",
+    "css-brunch": ">= 1.3.0",
+    "csso-brunch": "git://github.com/japboy/csso-brunch.git",
+    "jade-brunch": ">= 1.3.0",
+    "javascript-brunch": ">= 1.3.0",
+    "sass-brunch": ">= 1.4.1",
+    "stylus-brunch": ">= 1.4.1",
+    "uglify-js-brunch": ">= 1.3.1",
+    "underscore-brunch": "git://github.com/trojanowski/underscore-brunch.git"
+  },
+  "devDependencies": {
+    "mocha": ">= 1.7.0"
+  },
+  "bundleDependencies": [
+    "coffee-script-brunch",
+    "css-brunch",
+    "csso-brunch",
+    "jade-brunch",
+    "javascript-brunch",
+    "sass-brunch",
+    "stylus-brunch",
+    "uglify-js-brunch",
+    "underscore-brunch"
+  ],
+  "license": "Public Domain",
+  "engines": {
+    "node": "0.8",
+    "npm": "1.1"
+  }
+}

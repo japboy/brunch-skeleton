@@ -1,0 +1,19 @@
+/**
+ * Helper style
+ */
+
+
+@import "compass";
+
+$background: rgb(240,240,240);
+$foreground: rgb(15,15,15);
+
+body {
+    background-color: $background;
+
+    .item {
+        background-color: $foreground;
+        @include border-radius(3px);
+        @include box-shadow(0 0 10px $foreground);
+    }
+}

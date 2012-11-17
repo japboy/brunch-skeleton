@@ -1,0 +1,29 @@
+/*!
+ * Main style
+ */
+
+
+@import 'nib'
+@import './_sub'
+
+$background = rgb(240,240,240)
+$foreground = rgb(15,15,15)
+
+@keyframes test
+  0%
+    top: -5px
+  100%
+    top: 5px
+
+body
+  padding: 30px
+
+  #main
+    animation: test 3s ease 1s infinite alternate
+
+    .item
+      color: $background
+      float: left;
+      margin: 10px
+      padding: 10px 30px
+      position: relative
